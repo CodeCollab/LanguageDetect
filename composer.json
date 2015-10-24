@@ -1,0 +1,25 @@
+{
+    "name": "codecollab/languagedetect",
+    "description": "Language detection package of the CodeCollab project",
+    "version": "0.1.0",
+    "type": "library",
+    "keywords": ["codecollab", "language", "detection"],
+    "homepage": "https://github.com/CodeCollab/LanguageDetect",
+    "license": "See the LICENSE file",
+    "authors": [
+        {
+            "name": "Pieter Hordijk",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"CodeCollab\\LanguageDetect\\": "src/"}
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5"
+    }
+}
